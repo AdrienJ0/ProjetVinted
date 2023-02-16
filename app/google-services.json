@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "930378490814",
+    "project_id": "projetvinted-f2c58",
+    "storage_bucket": "projetvinted-f2c58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930378490814:android:26ff3c32a323aa6e7b0fef",
+        "android_client_info": {
+          "package_name": "com.example.projetvinted"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "930378490814-87ju3gil5b9h63rgjbhnt7e9lur76u1j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_Cw4WQ0muKY4EAxI8icBhRrUjHPt6vY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "930378490814-87ju3gil5b9h63rgjbhnt7e9lur76u1j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
