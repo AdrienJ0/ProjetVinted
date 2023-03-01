@@ -41,6 +41,11 @@ public class ArticleAdapter extends RecyclerView.Adapter<ArticleAdapter.ViewHold
         //this.listener = listener;
     }*/
 
+    public ArticleAdapter(ArrayList<Article> articleList, Context context){
+        this.articleList = articleList;
+        this.context = context;
+    }
+
     public ArticleAdapter(ArrayList<Article> articleList, Context context, SelectListener listener) {
         this.articleList = articleList;
         this.context = context;
