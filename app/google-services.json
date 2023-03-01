@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "313695819997",
+    "firebase_url": "https://projetvinted-42646-default-rtdb.firebaseio.com",
+    "project_id": "projetvinted-42646",
+    "storage_bucket": "projetvinted-42646.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313695819997:android:54de4853499ef71c2ee334",
+        "android_client_info": {
+          "package_name": "com.example.projetvinted"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313695819997-cafmisaisfv9rcnanjhpi0sfr02qoku9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQZV6_dQTPra8P7XScqa8bsJHIakjD1e0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313695819997-cafmisaisfv9rcnanjhpi0sfr02qoku9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
