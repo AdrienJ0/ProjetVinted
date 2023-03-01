@@ -158,5 +158,21 @@ public class AccountFragment extends Fragment {
                 database.child("article").child("id");
             }
         });
+
     }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override public void onClick(View view) {
+                FirebaseAuth.getInstance().signOut();
+                Intent intent = new Intent(getContext(), Login.class);
+                startActivity(intent);
+                //finish();
+            }
+        });
+    }
+
 }
