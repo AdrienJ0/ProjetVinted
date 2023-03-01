@@ -79,9 +79,10 @@ public class HomeFragment extends Fragment implements SelectListener {
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 for(DataSnapshot snapshot : dataSnapshot.getChildren()){
                     Article article = new Article();
-                    article.setArticleImage(snapshot.child("Image").getValue().toString());
-                    article.setArticleName(snapshot.child("Name").getValue().toString());
-                    article.setArticlePrice(snapshot.child("Price").getValue().toString());
+                    article.setArticleImage(snapshot.child("articleImage").getValue().toString());
+                    article.setArticleName(snapshot.child("articleName").getValue().toString());
+                    article.setArticlePrice(snapshot.child("articlePrice").getValue().toString());
+                    article.setUser(snapshot.child("user").getValue().toString());
 
                     articleList.add(article);
                 }
