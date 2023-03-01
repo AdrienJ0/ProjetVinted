@@ -115,10 +115,10 @@ public class AddArticleFragment extends Fragment {
         String name = articleName.getText().toString();
         String price = articlePrice.getText().toString() + " $";
 
-        id = database.push().getKey();
+        //id = database.push().getKey();
 
-        Article article = new Article(id, user, name, price, imageUrl);
-        database.setValue(article).addOnCompleteListener(new OnCompleteListener<Void>() {
+        Article article = new Article(user, name, price, imageUrl);
+        database.push().setValue(article).addOnCompleteListener(new OnCompleteListener<Void>() {
             @Override
             public void onComplete(@NonNull Task<Void> task) {
                 if(task.isSuccessful()){

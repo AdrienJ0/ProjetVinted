@@ -19,7 +19,7 @@ public class Article {
 
     }
 
-    public Article(String articleId, String user, String  articleName, String articlePrice, String articleImage) {
+    public Article(String user, String  articleName, String articlePrice, String articleImage) {
         this.articleId = articleId;
         this.user = user;
         this.articleName = articleName;
