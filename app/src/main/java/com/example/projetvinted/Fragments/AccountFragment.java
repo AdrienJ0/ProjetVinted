@@ -161,11 +161,11 @@ public class AccountFragment extends Fragment {
 
     }
 
-    @Override
+    /*@Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        button.setOnClickListener(new View.OnClickListener() {
+        b.setOnClickListener(new View.OnClickListener() {
             @Override public void onClick(View view) {
                 FirebaseAuth.getInstance().signOut();
                 Intent intent = new Intent(getContext(), Login.class);
@@ -173,6 +173,6 @@ public class AccountFragment extends Fragment {
                 //finish();
             }
         });
-    }
+    }*/
 
 }
